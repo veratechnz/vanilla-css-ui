@@ -1,0 +1,148 @@
+
+    /* Css reset */
+    /* http://meyerweb.com/eric/tools/css/reset/
+       v2.0 | 20110126
+       License: none (public domain)
+    */
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    	margin: 0;
+    	padding: 0;
+    	border: 0;
+    	font-size: 100%;
+    	font: inherit;
+    	vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+    	display: block;
+    }
+    body {
+    	line-height: 1;
+    }
+    ol, ul {
+    	list-style: none;
+    }
+    blockquote, q {
+    	quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    	content: '';
+    	content: none;
+    }
+    table {
+    	border-collapse: collapse;
+    	border-spacing: 0;
+    }
+    /* CSS Reset ENDS */
+
+
+    /* All custom css */
+    div {
+      border: 1px solid #000;
+    }
+
+    .mobile-container {
+      height: 100vh;
+      border: pink 6px solid;
+    }
+
+    .mobile-nav {
+      background-color: grey;
+      height: 50px;
+    }
+
+    .burger-menu,
+    .logo,
+    .search {
+      height: 100%;
+      display: inline-block;
+      width: 20.1%;
+      /* border: 2px solid black; */
+    }
+
+    .logo {
+      width: 57.5%;
+    }
+
+    .search {
+      width: 20.75%;
+    }
+
+    .daily-section {
+      background-color: teal;
+      height: 120px;
+      height: 30vh;
+    }
+
+    .current-city {
+      text-transform: uppercase;
+      margin-top: 13px;
+      margin-bottom: 13px;
+      padding-left: 10px;
+    }
+
+    .weather-image,
+    .weather-info {
+      height: 75%;
+      float: left;
+      width: 49.4%;
+      border: none;
+    }
+
+    .map-section {
+      background-color: green;
+      height: 23.5vh;
+      margin: 1vh;
+      position: relative;
+    }
+
+    .map {
+      height: 20vh;
+      background-color: #8beecc;
+    }
+
+    .map-title,
+    .expand {
+      position: absolute;
+      background-color: #32a261;
+      height: 3.5vh;
+      display: inline-block;
+    }
+
+    .map-title {
+      bottom: 0;
+      left: 0;
+      width: 80%;
+    }
+
+    .expand {
+      width: 20%;
+      bottom: 0;
+      right: 0;
+    }
+
+
+    .favourite-section {
+      background-color: blue;
+      height: 24vh;
+      margin: 1vh;
+    }
+
+    .footer-section {
+      background-color: yellow;
+      height: 120px;
+    }
