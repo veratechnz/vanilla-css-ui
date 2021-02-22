@@ -51,6 +51,10 @@
 
 
     /* All custom css */
+    html {
+      font-family: 'Caveat', cursive;
+    }
+
     div {
       border: 1px solid #000;
     }
@@ -71,15 +75,38 @@
       height: 100%;
       display: inline-block;
       width: 20.1%;
+      vertical-align: top;
       /* border: 2px solid black; */
     }
 
     .logo {
       width: 57.5%;
+      font-size: 2.1rem;
+      text-transform: uppercase;
+      padding-top: 0.4rem;
+      border: none;
+      text-align: center;
     }
 
     .search {
-      width: 20.75%;
+      width: 21.5%;
+    }
+
+    .fa-bars,
+    .fa-search
+    {
+      position: absolute;
+      font-size: 1.8rem;
+    }
+
+    .fa-search {
+      top: 0.8rem;
+      right: 1.1rem;
+    }
+
+    .fa-bars {
+      top: 0.8rem;
+      left: 1rem;
     }
 
     .daily-section {
@@ -93,6 +120,7 @@
       margin-top: 13px;
       margin-bottom: 13px;
       padding-left: 10px;
+      font-size: 1.4rem;
     }
 
     .weather-image,
@@ -104,15 +132,15 @@
     }
 
     .map-section {
-      background-color: green;
       height: 23.5vh;
       margin: 1vh;
       position: relative;
+      background-image: url("../img/paper-fibers.png");
+      background-repeat: repeat;
     }
 
     .map {
       height: 20vh;
-      background-color: #8beecc;
     }
 
     .map-title,
