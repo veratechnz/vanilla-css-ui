@@ -89,7 +89,7 @@
     }
 
     .search {
-      width: 21.5%;
+      width: 21%;
     }
 
     .fa-bars,
@@ -155,6 +155,7 @@
       bottom: 0;
       left: 0;
       width: 80%;
+      font-size: 1.4rem;
     }
 
     .expand {
@@ -163,6 +164,12 @@
       right: 0;
     }
 
+    .expand .fa {
+      font-size: 1.2rem;
+      float: right;
+      margin-top: 0.2rem;
+      margin-right: 0.3rem;
+    }
 
     .favourite-section {
       background-color: blue;
@@ -174,3 +181,68 @@
       background-color: yellow;
       height: 120px;
     }
+
+/* Extra small devices (phones, 600px and down) */
+/* This applies css to mobile phones */
+@media only screen and (max-width: 600px) {
+
+  .daily-section {
+    background-color: red;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  .daily-section {
+    background-color: blue;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .daily-section {
+    background-color: purple;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  .daily-section {
+    background-color: purple;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  .daily-section {
+    background-color: purple;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+}
